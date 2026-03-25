@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "@tursodatabase/database-wasm": "^0.4.0-pre.18",
+    "@tursodatabase/serverless": "^0.2.4",
     "@types/node": "^20.0.0",
     "@vitest/browser": "^4.0.16",
     "@vitest/browser-playwright": "^4.0.16",
