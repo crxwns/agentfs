@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.6.3] - 2026-03-25
+
+### Added
+
+- TypeScript SDK: Serverless adapter for `@tursodatabase/serverless`.
+
+### Fixed
+
+- Rust SDK: Fix hostfs `create_file()` failing with `EEXIST` on existing files.
+- TypeScript SDK: Re-add statement caching and fix transaction adapter.
+
+### Documentation
+
+- Fix argument order for `agentfs fs` commands in README.
+
 ## [0.6.2] - 2026-02-21
 
 ### Fixed
@@ -315,6 +330,7 @@ AgentFS is now beta!
 - Cross-platform builds (Linux, macOS).
 - Example agent implementations.
 
+[0.6.3]: https://github.com/tursodatabase/agentfs/compare/v0.6.2...v0.6.3
 [0.6.2]: https://github.com/tursodatabase/agentfs/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/tursodatabase/agentfs/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/tursodatabase/agentfs/compare/v0.5.3...v0.6.0
